@@ -12,3 +12,4 @@ RUN ./configure
 RUN make bootstrap
 WORKDIR /source
 RUN sudo luarocks install lua-cjson
+RUN sudo luarocks install luassert
